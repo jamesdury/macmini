@@ -6,6 +6,8 @@ NixOS was chosen as the operating system due to its ease of installation,
 configuration, and the ability to create a live CD beforehand. This is not a
 step-by-step guide, but rather an observational guide.
 
+![Neofetch command in terminal demonstrating nixos running on a macmini](https://user-images.githubusercontent.com/97810962/229443396-ce21d1ee-9fcc-4a4a-b2ee-355c95fdde0e.png)
+
 ## Inspiration
 
 Some blogs I recommend reading on the same subject.
@@ -22,12 +24,11 @@ be upgraded for more storage.
 
 ### What to do with a NAS
 
-### Local NPM Cache
+### Print server
 
-Working from home as a developer requires a lot of downloading. As a JavaScript
-developer, I often use npm packages, and
-[local-npm](https://github.com/local-npm/local-npm) is a great program for
-caching npm packages, making downloads nearly instantaneous.
+Its my print server, I have a HP deskjet 1050 which is desperate for me to
+replace it. I'm not gonna let that happen (no matter how many surprise test
+pages it prints).
 
 ## Steps Summary
 
@@ -63,8 +64,8 @@ advantages:
 
 - WIFI Broadcom drivers, can be included in the installer
 - Can Install over SSH
-    - Can set the username/password in the livecd
-    - Enable WiFi in the livecd
+  - Can set the username/password in the livecd
+  - Enable WiFi in the livecd
 - Installer can include any additional programs e.g. vim, git
 
 To create an installer I used [QEMU](https://www.qemu.org/) running nixos in a
